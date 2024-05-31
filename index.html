@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="table-container">
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+    <div class="pagination">
+        <button id="prevBtn" onclick="loadData('prev')" disabled>Previous</button>
+        <button id="nextBtn" onclick="loadData('next')">Next</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
